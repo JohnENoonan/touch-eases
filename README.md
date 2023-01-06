@@ -5,7 +5,7 @@ A tox asset used to creat easing chops that can be sampled. This tool is basical
 
 To use the eases you need: a `select chop` to choose the ease, a tween value in the range [0,1], and a `lookup chop` to apply the ease.
 
-![Usage with a lookup chop](documentatio/lookupExample.png)
+![Usage with a lookup chop](documentation/lookupExample.png)
 
 You can either copy and paste the component into your touch file or use the released `eases.tox` file available in in `./release` or from the [release page](https://github.com/JohnENoonan/touch-eases/releases).
 
@@ -23,7 +23,7 @@ If you need a helper function do not expose it or prepend "Ease"
 ### Custom Cubic Easing
 If you just need a simple custom cubic function you can make your own by using `op.eases.CubicBezier()`. Create a setup as depicted below and edit the control points to the bezier through the 4 variables
 
-![Custom Bezier Example](documentatio/customBezier.png)
+![Custom Bezier Example](documentation/customBezier.png)
 
 The variables sent into the function are 
 ```python
