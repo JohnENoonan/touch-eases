@@ -7,7 +7,7 @@ To use the eases you need: a `select chop` to choose the ease, a tween value in 
 
 ![Usage with a lookup chop](documentatio/lookupExample.png)
 
-You can either copy and paste the component into your touch file or use the released `eases.tox` file available in in `./release` or from the release pages
+You can either copy and paste the component into your touch file or use the released `eases.tox` file available in in `./release` or from the [release page](https://github.com/JohnENoonan/touch-eases/releases).
 
 ### Adding New Functions
 To add a new function, simply edit `src/scripts/easesExt.py` and create the new function following the following syntax:
