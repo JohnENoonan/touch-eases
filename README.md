@@ -3,11 +3,15 @@ A tox asset used to creat easing chops that can be sampled. This tool is basical
 
 ## Usage
 
-To use the eases you need: a `select chop` to choose the ease, a tween value in the range [0,1], and a `lookup chop` to apply the ease.
+To use the eases you need to:
+
+1. Create a `select CHOP` to choose the ease. In the path set it to expression mode and type `op.eases.op("NameOfTheEaseYouWant")`. You can find the name of all the eases by viewing the ease COMP.
+2. You will need your tween value to be clamped between 0 and 1.
+3. Use a `lookup CHOP` with the tween and the ease.
 
 ![Usage with a lookup chop](documentation/lookupExample.png)
 
-You can either copy and paste the component into your touch file or use the released `eases.tox` file available in in `./release` or from the [release page](https://github.com/JohnENoonan/touch-eases/releases).
+You can either copy and paste the component into your touch file or use the released `eases.tox` file available in `./release` or from the [release page](https://github.com/JohnENoonan/touch-eases/releases).
 
 ### Adding New Functions
 To add a new function, simply edit `src/scripts/easesExt.py` and create the new function following the following syntax:
