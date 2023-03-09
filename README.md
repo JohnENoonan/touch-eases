@@ -1,5 +1,5 @@
 # Touch Eases
-A tox asset used to creat easing chops that can be sampled. This tool is basically just a wrapper of the amazing tools [easings.net](https://github.com/ai/easings.net) and [ofxAnimatable](https://github.com/armadillu/ofxAnimatable). It can be used to ease chop driven animations which is especially useful when connected to triggers and timers.
+A tox asset used to create easing chops that can be sampled. This tool is basically just a wrapper of the amazing tools [easings.net](https://github.com/ai/easings.net) and [ofxAnimatable](https://github.com/armadillu/ofxAnimatable). It can be used to ease chop driven animations which is especially useful when connected to triggers and timers.
 
 ## Usage
 
